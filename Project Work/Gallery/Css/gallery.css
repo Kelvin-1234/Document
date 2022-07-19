@@ -1,0 +1,152 @@
+                body{
+                      margin-top:100px;
+                      padding: none;
+                      background: url(../pictures/waterfall.jpg);
+                      background-clip: content-box;
+                      background-size:cover;
+                      background-position-y:center;
+                      background-blend-mode:exclusion;
+                      background-color:silver;
+}
+                
+nav{
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      padding:0;
+      position: fixed;
+      top:5px;
+      left: 0;
+      z-index:2;
+      width: 100%;
+      flex-direction: row;
+}
+.dropdown{
+      position: relative;
+        display: inline-block;
+}
+
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 100%;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 2;
+      text-align: center;
+}
+.dropdown:hover .dropdown-content{
+      display: block;
+}
+button,#style{
+      margin-left: 30px;
+      margin-top:0px;
+      font-family: 'Times New Roman', Times, serif;
+      border: none;
+      background:none;
+      font-size: 25px;
+      color: #f9f9f9;
+}
+a{
+ text-decoration: none;
+ color:black;
+ font-size:20px;
+}
+                #pic,#see,#create,#small,#code,#image{
+                                                       float: right;
+}
+                #pic{
+                      width: 25%;
+                      height:530px;
+                      cursor: pointer;
+                      position: relative;
+                      top: 100px;
+}
+                #see{
+                      width:15%;
+                      height:410px;
+                      padding:20px;
+                      position: relative;
+                      top:200px;
+                      left:20px;
+                      cursor: pointer;
+}
+                #create{
+                        width: calc(25%);
+                        height: 530px;
+                        position:absolute;
+                        margin-top: 100px;
+                        padding:0;
+                        cursor: pointer;
+}
+                #small{
+                        width:300px;
+                        height: 118px;
+                        position: relative;
+                        left:710px;
+                        top:100px;
+                        display: flex;
+                        cursor: pointer;
+}
+                #code{
+                       width:18%;
+                       height:410px;
+                       position: relative;
+                       right:300px;
+                       top:220px;
+                       z-index: 1;
+                       cursor: pointer;
+}
+                #image{
+                        width:14.7%;
+                        height:120px;
+                        position:relative;
+                        left:298px;
+                        top: 98px;
+                        display:block;
+                        cursor: pointer;
+}
+                  #origin{
+                           width:340px;
+                          height:350px;
+                          position: relative;
+                          left:880px;
+                          top:100px;
+                       z-index: 1;
+                       cursor: pointer;
+}
+                  #stand{
+                        width:205px;
+                        height: 119px;
+                        position:relative;
+                        top:-374px;
+                        left:50%;
+                        margin:0;
+                        padding:0;
+                        cursor: pointer;
+}
+                  #made{
+                        width:10%;
+                        height:119px;
+                        position:relative;
+                        top:-496px;
+                        left:812px;
+                        margin:0;
+                        padding:0;
+                        cursor: pointer;
+}
+                  a:hover{
+                        background-color: gray;
+}
+                  section{
+                           font-family: 'Times New Roman', Times, serif;
+                           font-size:25px;
+                           line-height:25px;
+                           float: right;
+                           margin-right:30px;
+                           word-spacing: 5px;
+                           letter-spacing:0.5px;
+                           margin-top: -101px;
+                           color: #f9f9f9;
+}

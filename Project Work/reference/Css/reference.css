@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding:0;
+    text-overflow: none;
+    background-image: url(../images/copy.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    background-blend-mode: luminosity;
+    background-color:purple;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:0;
+    position: fixed;
+    top:0px;
+    left: 0;
+    z-index:2;
+    width: 100%;
+    flex-direction: row;
+}
+.dropdown{
+    position: relative;
+      display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+button,#style{
+    margin-left: 30px;
+    margin-top:0px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    background:none;
+    color: white;
+}
+a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+#container{
+            position: relative;
+            text-align: center;
+            top:350px;
+            left:150px;
+            border:5px solid purple;
+            width:350px;
+            height: 348px;
+            border-radius: 5px;
+    }
+img{
+    max-width:500px;
+    max-height: 350px;
+}
+#real{
+    width:350px;
+    max-height: 350px;
+}
+
+  .margin{
+           border:5px solid purple;
+           width: 350px;
+           height: 350px;
+           top:-20px;
+           left: 790px;
+           border-radius: 5px;
+           position:relative;
+
+ }
+
+.main{
+    border:5px solid purple;
+    width: 350px;
+    height: 350px;
+    top:-370px;
+    left:1500px;
+    border-radius: 5px;
+    position:relative;
+}
+ h1{
+     text-align: center;
+     position: relative;
+     
+ }
+ 
+   address{
+           text-align: center;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: medium;
+}
+   #know{
+               background:none;
+               font-family:'Times New Roman', Times, serif;
+               font-size:30px;
+               color: white;
+               letter-spacing: 2px;
+               position: relative;
+               top: -150px;
+               border: none;
+               text-shadow: 5px solid white;
+               cursor: pointer;
+   }
+   #pic{
+    position: relative;
+    text-align: center;
+    top:-560px;
+    left:1050px;
+    border:5px solid black;
+    width:350px;
+    height: 348px;
+    border-radius: 5px;
+    max-width:500px;
+    max-height: 350px;
+
+   }
+   #knows{
+
+        background:none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:30px;
+        color: white;
+        letter-spacing: 2px;
+        position: relative;
+        top: -150px;
+        left: 100px;
+        cursor: pointer;
+        text-shadow: 5px solid white;
+        border:none;
+   }
+   #add{
+    background:none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    top: -150px;
+    left: 100px;
+    cursor: pointer;
+    text-shadow: 5px solid white;
+    border: none;
+   }
+    a:hover{
+            background-color: gray;
+    }
+    section{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:20px;
+        line-height:25px;
+        float: right;
+        margin-right:30px;
+        word-spacing: 5px;
+        letter-spacing:0.5px;
+        margin-top:5px;
+        color: white;
+}
